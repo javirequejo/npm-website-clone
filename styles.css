@@ -20,7 +20,7 @@ nav a {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: 300;
 }
 
@@ -112,6 +112,12 @@ h2 {
   display: flex;
 }
 
+.container-notflex {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
 .container a {
   color: white;
   text-decoration: none;
@@ -200,6 +206,35 @@ section {
   margin-top: 1em;
   margin-bottom: 5px;
   border-radius: 20px;
+}
+
+.container-notflex h2 {
+  color: rgb(83, 88, 98);
+}
+
+.container-notflex p {
+  color: rgb(135, 145, 156);
+}
+
+.npm-functions {
+  display: flex;
+  margin: 3% auto;
+}
+
+.function-block {
+  width: 33%;
+  margin: 0 auto;
+}
+
+.function-block p {
+  width: 80%;
+  color: rgb(135, 145, 156);
+  margin: 0 auto;
+}
+
+.function-block a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
 }
 
 
